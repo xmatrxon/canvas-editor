@@ -1,9 +1,9 @@
-import MainPage from "./components/MainPage";
+import MainPageComponent from "./components/MainPageComponent";
 
 function App() {
   return (
     <>
-      <MainPage />
+      <MainPageComponent />
     </>
   );
 }

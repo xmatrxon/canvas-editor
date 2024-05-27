@@ -13,7 +13,7 @@ import "../index.css";
 import Modal from "./Modal";
 import SelectColor from "./SelectColor";
 
-const MainPage = () => {
+const MainPageComponent = () => {
   const startImg: string = require("../img/startImg.png");
   const emptyImg: string = require("../img/emptyImg.png");
 
@@ -456,4 +456,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default MainPageComponent;
