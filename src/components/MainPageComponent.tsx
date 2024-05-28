@@ -5,13 +5,13 @@ import ImgIcon from "../icons/ImgIcon";
 import BackgroundIcon from "../icons/BackgroundIcon";
 import MoveIcon from "../icons/MoveIcon";
 import DeleteIcon from "../icons/DeleteIcon";
-import ActionSquare from "./ActionSquare";
+import ActionSquare from "./ActionSquare.tsx";
 
 import { useState, MouseEvent } from "react";
 
 import "../index.css";
-import Modal from "./Modal";
-import SelectColor from "./SelectColor";
+import Modal from "./Modal.tsx";
+import SelectColor from "./SelectColor.tsx";
 
 const MainPageComponent = () => {
   const startImg: string = require("../img/startImg.png");
